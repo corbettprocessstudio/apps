@@ -8,14 +8,9 @@ body {
 
   font-family: "Inter", "Segoe UI", Arial, sans-serif;
 
-  background:
-    linear-gradient(
-      135deg,
-      #080d16,
-      #111827
-    );
+  background: #f8fafc;
 
-  color: #e8e8e8;
+  color: #1f2937;
 
   line-height: 1.7;
 
@@ -34,9 +29,9 @@ footer {
 
   margin-top: 80px;
 
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid #e5e7eb;
 
-  color: #94a3b8;
+  color: #64748b;
 
   font-size:14px;
 
@@ -58,14 +53,20 @@ footer {
 
   background:
 
-  radial-gradient(
-    circle at top,
-    #26345f,
-    #0b0f17 65%
+  linear-gradient(
+    135deg,
+    #ffffff,
+    #eef6ff
   );
 
 
+  border-bottom:
+
+  1px solid #e5e7eb;
+
+
 }
+
 
 
 .hero h1 {
@@ -76,6 +77,8 @@ footer {
 
   margin-bottom:15px;
 
+  color:#0f172a;
+
 }
 
 
@@ -84,11 +87,11 @@ footer {
 
   font-size:20px;
 
-  opacity:0.85;
-
   max-width:750px;
 
   margin:auto;
+
+  color:#475569;
 
 }
 
@@ -108,7 +111,7 @@ footer {
   margin-top:30px;
 
 
-  padding:14px 28px;
+  padding:14px 30px;
 
 
   background:
@@ -138,13 +141,11 @@ footer {
 }
 
 
+
 .button:hover {
 
 
   transform:translateY(-3px);
-
-
-  opacity:0.9;
 
 
 }
@@ -178,10 +179,10 @@ h2 {
   font-size:32px;
 
 
+  color:#0f172a;
+
+
   margin-bottom:25px;
-
-
-  letter-spacing:-0.5px;
 
 
 }
@@ -189,7 +190,7 @@ h2 {
 
 
 /* -----------------------------
-   CAPABILITIES GRID
+   CAPABILITIES
 ------------------------------ */
 
 
@@ -207,7 +208,7 @@ h2 {
   );
 
 
-  gap:18px;
+  gap:20px;
 
 
 }
@@ -217,9 +218,7 @@ h2 {
 .card {
 
 
-  background:
-
-  rgba(255,255,255,0.04);
+  background:white;
 
 
   padding:22px;
@@ -230,7 +229,12 @@ h2 {
 
   border:
 
-  1px solid rgba(255,255,255,0.08);
+  1px solid #e2e8f0;
+
+
+  box-shadow:
+
+  0 8px 20px rgba(15,23,42,0.06);
 
 
   transition:0.25s;
@@ -302,10 +306,7 @@ h2 {
   padding:30px;
 
 
-  background:
-
-
-  rgba(255,255,255,0.05);
+  background:white;
 
 
   border-radius:16px;
@@ -320,7 +321,7 @@ h2 {
   box-shadow:
 
 
-  0 15px 35px rgba(0,0,0,0.25);
+  0 12px 30px rgba(15,23,42,0.08);
 
 
   transition:0.25s;
@@ -352,6 +353,9 @@ h2 {
   font-size:24px;
 
 
+  color:#0f172a;
+
+
 }
 
 
@@ -379,13 +383,10 @@ h2 {
   font-size:12px;
 
 
-  background:
+  background:#eef6ff;
 
 
-  rgba(0,120,212,0.15);
-
-
-  color:#7dd3fc;
+  color:#0078D4;
 
 
   border-radius:999px;
@@ -393,8 +394,7 @@ h2 {
 
   border:
 
-
-  1px solid rgba(125,211,252,0.25);
+  1px solid #bfdbfe;
 
 
 }
