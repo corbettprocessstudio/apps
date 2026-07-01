@@ -89,25 +89,9 @@ p {
 
 .hero {
 
-  padding:80px 20px 100px;
+  padding:90px 20px 120px;
 
   text-align:center;
-
-
-  background:
-
-
-  linear-gradient(
-    135deg,
-    #ffffff 0%,
-    #eef6ff 55%,
-    #f5edff 100%
-  );
-
-
-  border-bottom:
-
-  1px solid #e5e7eb;
 
 }
 
@@ -169,11 +153,11 @@ p {
 
   font-size:20px;
 
+  line-height:1.6;
+
   max-width:760px;
 
-  margin:
-
-  0 auto 30px;
+  margin:0 auto 40px;
 
   color:#475569;
 
@@ -219,10 +203,9 @@ p {
 
   display:inline-block;
 
-  margin-top:10px;
+  margin-top:0;
 
   padding:14px 32px;
-
 
   background:
 
@@ -232,7 +215,6 @@ p {
     #0078D4
   );
 
-
   color:white;
 
   text-decoration:none;
@@ -241,11 +223,9 @@ p {
 
   font-weight:600;
 
-
   box-shadow:
 
   0 10px 25px rgba(0,120,212,0.25);
-
 
   transition:0.25s;
 
