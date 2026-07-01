@@ -89,7 +89,7 @@ p {
 
 .hero {
 
-  padding:90px 20px 110px;
+  padding:80px 20px 100px;
 
   text-align:center;
 
@@ -105,6 +105,10 @@ p {
   );
 
 
+  border-bottom:
+
+  1px solid #e5e7eb;
+
 }
 
 
@@ -113,27 +117,22 @@ p {
    BRAND LOGO
 ============================== */
 
-
 .brand-logo {
 
-  width:260px;
+  width:180px;
 
-  max-width:80%;
+  max-width:60%;
 
-  margin-bottom:35px;
+  height:auto;
+
+  margin-bottom:28px;
 
 
   filter:
 
   drop-shadow(
-    0 12px 25px rgba(15,23,42,0.12)
+    0 8px 18px rgba(15,23,42,0.10)
   );
-
-
-  animation:
-
-  fadeIn 0.8s ease;
-
 
 }
 
@@ -168,11 +167,13 @@ p {
 
 .tagline {
 
-  font-size:22px;
+  font-size:20px;
 
-  max-width:800px;
+  max-width:760px;
 
-  margin:auto;
+  margin:
+
+  0 auto 30px;
 
   color:#475569;
 
@@ -216,32 +217,37 @@ p {
 
 .button {
 
+  display:inline-block;
 
-  margin-top:35px;
+  margin-top:10px;
 
-  padding:16px 34px;
-
-
-  font-size:16px;
+  padding:14px 32px;
 
 
   background:
 
-
   linear-gradient(
-  90deg,
-  #742774,
-  #0078D4
+    90deg,
+    #742774,
+    #0078D4
   );
 
 
-  border-radius:14px;
+  color:white;
+
+  text-decoration:none;
+
+  border-radius:12px;
+
+  font-weight:600;
 
 
   box-shadow:
 
-  0 12px 30px rgba(0,120,212,0.25);
+  0 10px 25px rgba(0,120,212,0.25);
 
+
+  transition:0.25s;
 
 }
 
