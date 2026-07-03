@@ -21,10 +21,14 @@ body {
 
 }
 
+/* ==============================
+   SHARED
+============================== */
+
 .section,
 .hero{
 
-    max-width:1100px;
+    max-width:1000px;
 
     margin-left:auto;
 
@@ -100,6 +104,8 @@ p {
 
 .hero {
 
+  animation:fadeIn .8s ease;
+   
   padding:50px 20px 70px;
 
   text-align:center;
@@ -122,6 +128,7 @@ p {
 
   margin-bottom:20px;
 
+  animation:fadeIn .8s ease;
 
   filter:
 
@@ -231,7 +238,7 @@ box-shadow:
 
   display:inline-block;
 
-  margin-top:10;
+  margin-top:10px;
 
   padding:14px 32px;
 
@@ -280,7 +287,7 @@ box-shadow:
 
 
 /* ==============================
-   CAPABILITY CARDS
+   CARDS
 ============================== */
 
 
@@ -309,6 +316,13 @@ box-shadow:
 
 }
 
+.card{
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+
+}
 
 .card:hover {
 
@@ -350,7 +364,10 @@ box-shadow:
 
   0 20px 45px rgba(15,23,42,0.10);
 
-
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+   
 }
 
 
