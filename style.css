@@ -21,7 +21,16 @@ body {
 
 }
 
+.section,
+.hero{
 
+    max-width:1100px;
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+}
 
 /* ==============================
    TYPOGRAPHY SCALE
@@ -39,6 +48,8 @@ h1 {
   font-weight:750;
 
   color:#0f172a;
+   
+  margin:0 0 18px;
 
 }
 
@@ -89,7 +100,7 @@ p {
 
 .hero {
 
-  padding:90px 20px 120px;
+  padding:50px 20px 70px;
 
   text-align:center;
 
@@ -109,7 +120,7 @@ p {
 
   height:auto;
 
-  margin-bottom:35px;
+  margin-bottom:20px;
 
 
   filter:
@@ -157,7 +168,7 @@ p {
 
   max-width:760px;
 
-  margin:0 auto 40px;
+  margin:0 auto 28px;
 
   color:#475569;
 
@@ -174,9 +185,9 @@ p {
 
   max-width:1000px;
 
-  margin:100px auto;
+  margin:55px auto;
 
-  padding:50px 30px;
+  padding:36px 34px;
 
 }
 
@@ -186,13 +197,30 @@ p {
 
 .section:nth-of-type(even) {
 
-  background:#f1f5f9;
+ background:white;
+
+border:1px solid #e2e8f0;
+
+box-shadow:
+0 8px 30px rgba(15,23,42,.04);
 
   border-radius:28px;
 
 }
 
+.section h2{
 
+    margin-top:0;
+
+    margin-bottom:18px;
+
+}
+
+.section p{
+
+    margin-bottom:18px;
+
+}
 
 /* ==============================
    BUTTON
@@ -203,7 +231,7 @@ p {
 
   display:inline-block;
 
-  margin-top:0;
+  margin-top:10;
 
   padding:14px 32px;
 
@@ -233,6 +261,23 @@ p {
 
 
 
+/* ==============================
+   CAPABILITY GRID
+============================== */
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(260px,1fr));
+
+    gap:18px;
+
+    margin-top:24px;
+
+}
+
 
 /* ==============================
    CAPABILITY CARDS
@@ -245,7 +290,7 @@ p {
   background:white;
 
 
-  padding:26px;
+  padding:22px;
 
 
   border-radius:18px;
@@ -288,7 +333,7 @@ p {
   background:white;
 
 
-  padding:38px;
+  padding:30px;
 
 
   border-radius:22px;
@@ -312,13 +357,19 @@ p {
 
 .project-card p {
 
-
   font-size:17px;
 
+  margin-bottom:18px;
 
 }
 
+.project-card h3{
 
+    margin-top:0;
+
+    margin-bottom:16px;
+
+}
 
 /* ==============================
    POWER PLATFORM TAGS
@@ -354,7 +405,12 @@ p {
 
   1px solid #c7d2fe;
 
+    display:inline-block;
 
+    margin:8px 8px 0 0;
+
+    border-radius:999px;
+   
 }
 
 
@@ -373,7 +429,8 @@ footer {
   color:#cbd5e1;
 
 
-  padding:50px;
+  padding:32px;
 
-
+  text-align:center;
+   
 }
