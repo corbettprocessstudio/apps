@@ -118,26 +118,30 @@ p {
    BRAND LOGO
 ============================== */
 
-.brand-logo {
+.logo-container{
+
+    display:inline-block;
+
+    overflow:hidden;
+
+    border-radius:32px;
+
+    box-shadow:
+        0 8px 20px rgba(15,23,42,.10);
+
+    border:1px solid #e2e8f0;
+
+}
+
+.brand-logo{
+
+    display:block;
 
     width:380px;
 
     max-width:90%;
 
     height:auto;
-
-    margin-bottom:20px;
-
-   border: 1px solid #e2e8f0;
-
-    border-radius:32px;
-
-   overflow:hidden;
-
-    filter:
-        drop-shadow(
-            0 8px 20px rgba(15,23,42,.10)
-        );
 
 }
 
