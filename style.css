@@ -384,8 +384,6 @@ box-shadow:
    
 }
 
-
-
 .project-card p {
 
   font-size:17px;
@@ -400,6 +398,29 @@ box-shadow:
 
     margin-bottom:16px;
 
+}
+
+
+.subapp-list {
+
+    margin: 14px 0 0 18px;
+
+    padding: 0;
+
+    color: #475569;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+}
+
+.subapp-list li {
+    margin-bottom: 6px;
+}
+
+.project-tags {
+    margin-top: 16px;
 }
 
 /* ==============================
